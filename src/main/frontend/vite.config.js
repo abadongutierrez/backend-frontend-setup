@@ -4,6 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   build: {
+    external: ['jquery', 'htmx.org', 'alpinejs'],
     rollupOptions: {
       input: {
         main: path.resolve(__dirname, 'src/main.js'),
@@ -12,7 +13,7 @@ export default defineConfig({
       output: {
         entryFileNames: 'assets/[name].js',
         chunkFileNames: 'assets/[name].js',
-        assetFileNames: 'assets/[name].[ext]'
+        assetFileNames: 'assets/[name].[ext]',
       }
     }
   }
