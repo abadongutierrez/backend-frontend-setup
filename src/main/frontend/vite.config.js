@@ -4,10 +4,11 @@ import path from 'path'
 
 export default defineConfig({
   build: {
-    external: ['jquery', 'htmx.org', 'alpinejs'],
+    external: ['htmx.org', 'alpinejs'],
     rollupOptions: {
       input: {
         main: path.resolve(__dirname, 'src/main.js'),
+        myComponent:  path.resolve(__dirname, 'src/components/myComponent.js'),
         // Add other entry points if needed
       },
       output: {
