@@ -4,10 +4,10 @@
 
 <div>
     <a href="https://vite.dev" target="_blank">
-        <img src="vite.svg" class="logo" alt="Vite logo" />
+        <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-        <img src="javascript.svg" class="logo vanilla" alt="JavaScript logo" />
+        <img src="/javascript.svg" class="logo vanilla" alt="JavaScript logo" />
     </a>
     <h1>Hello Vite!</h1>
     <div class="card">
@@ -23,5 +23,5 @@
     </p>
 </div>
 
-<script type="module" crossorigin src="assets/myComponent.js"></script>
+<script type="module" crossorigin src="/assets/myComponent.js"></script>
 

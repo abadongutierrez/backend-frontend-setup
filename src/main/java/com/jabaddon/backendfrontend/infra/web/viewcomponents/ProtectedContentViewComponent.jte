@@ -1,0 +1,1 @@
+<div>This content is only allowed for authenticated users.</div>

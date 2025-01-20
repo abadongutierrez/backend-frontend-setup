@@ -10,4 +10,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     setupCounter(document.querySelector('#counter'));
 });
 
+window.addEventListener('beforeunload', function (event) {
+    navigator.sendBeacon('/auth/logout');
+});
+
 
